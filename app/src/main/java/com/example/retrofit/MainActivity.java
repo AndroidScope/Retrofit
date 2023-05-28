@@ -28,7 +28,7 @@ private Api api;
         api.getProduct().enqueue(new Callback<ArrayList<Productlist>>() {
             @Override
             public void onResponse(Call<ArrayList<Productlist>> call, Response<ArrayList<Productlist>> response) {
-                Log.d("cc",response.toString());
+               c=0;
             }
 
             @Override
