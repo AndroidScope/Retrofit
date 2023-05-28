@@ -27,6 +27,9 @@ private Api api;
     void add1(){
 zzzz="zzzz";
     }
+     void add2(){
+zzzz="zzzz";
+    }
     void fetchData(){
         api.getProduct().enqueue(new Callback<ArrayList<Productlist>>() {
             @Override
