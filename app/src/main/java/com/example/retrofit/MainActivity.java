@@ -31,7 +31,7 @@ private Api api;
         api.getProduct().enqueue(new Callback<ArrayList<Productlist>>() {
             @Override
             public void onResponse(Call<ArrayList<Productlist>> call, Response<ArrayList<Productlist>> response) {
-
+               c=0;
             }
 
             @Override
