@@ -14,7 +14,7 @@ import retrofit2.Retrofit;
 
 public class MainActivity extends AppCompatActivity {
 private Retrofit mclient;
-private Api api;
+private Api api,clien;
     private String c,b,zzzz;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
